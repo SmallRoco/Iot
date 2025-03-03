@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff; /* 纯白色背景 */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #444;
+}
+
+.data-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.data-card {
+    background: linear-gradient(135deg, #e6f4ff, #ffffff); /* 浅蓝到白色渐变 */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.data-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.data-card strong {
+    color: #2575fc;
+    font-size: 16px;
+}
+
+.data-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.refresh-time {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
