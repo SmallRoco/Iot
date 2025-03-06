@@ -14,7 +14,8 @@ import java.net.Socket;
 @Service
 public class DanPianJi {
 
-    public static String data = "co2=100,fire=1";
+    public static String test = "feat_test";
+    public static String data = "name=100,name2=1,name3=1,name4=1";
 
 
     @Autowired
